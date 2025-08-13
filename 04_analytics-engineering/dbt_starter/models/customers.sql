@@ -5,7 +5,7 @@ with customers as (
         first_name,
         last_name
 
-    from jaffle_shop.customers
+    from dbt_starter.customers
 
 ),
 
@@ -17,7 +17,7 @@ orders as (
         order_date,
         status
 
-    from jaffle_shop.orders
+    from dbt_starter.orders
 
 ),
 
